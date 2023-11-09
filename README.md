@@ -1,9 +1,11 @@
 # CRISPR_vs_Metabarcoding
 This repository contains all the code used to analyse freshwater macroinvertebrate bulk eDNA treated with CRISPR-Cas enrichment compared to metabarcoding to assess the use of CRISPR-Cas enrichment for quantitative estimates
 
-1. VSEARCH analysis
-2. Bowtie2 analysis
-3. Statistical analysis
+1. Data cleanup
+2. Reference database construction
+3. VSEARCH analysis
+4. Bowtie2 analysis
+5. Statistical analysis
 ---
 ## 1. Data cleanup
 Raw fastq files were quality trimmed using FastP v 0.23.3 (S. Chen et al., 2018) to remove adapters and low quality bases (S. Chen et al., 2018). Per-cycle quality profiles, per-cycle base contents, adapter trimming results and k-mer counts were checked to ensure trimming was successful.
